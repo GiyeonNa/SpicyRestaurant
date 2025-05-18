@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d562ceacaf47744b8e7cfc98365a791, type: 3}
+  m_Name: ConstantsSO
+  m_EditorClassIdentifier: 
+  Rows: 7
+  Columns: 6
+  AnimationDuration: 0.1
+  MoveAnimationMinDuration: 0.1
+  ExplosionDuration: 0.3
+  WaitBeforePotentialMatchesCheck: 1
+  OpacityAnimationFrameDelay: 0.05
+  MinimumMatches: 3
+  MinimumMatchesForBonus: 4
+  GameTimeLimit: 30

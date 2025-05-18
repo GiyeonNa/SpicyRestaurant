@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7104086132555611282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6103784261997959942}
+  - component: {fileID: 2739770412009997074}
+  m_Layer: 0
+  m_Name: CustomerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6103784261997959942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7104086132555611282}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2739770412009997074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7104086132555611282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e50507805488eaf40bb9f31948590360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StageCustomerList: []
+  StageAllCustomerSpecialPrefabList:
+  - {fileID: 5943600405427630756, guid: 9e7fae99bbcde44409926d9944213320, type: 3}
+  - {fileID: 2666481063740222516, guid: e8da3b60db7623c4f993b157c609d0d6, type: 3}
+  - {fileID: 583334179346442840, guid: 05d32738e2b699d49be783b11a51c6bd, type: 3}
+  - {fileID: 6988109589711000471, guid: 09a6ba68c2673d8408cf0e7626b7462f, type: 3}
+  Stage2CustomerSpecialPrefabList:
+  - {fileID: 8952570693166061768, guid: 011901ec9b1a78847bb18c89cad5133c, type: 3}
+  - {fileID: 1875491692148110022, guid: 5a56cab257cfa704b98f55843d6c0132, type: 3}
+  Stage3CustomerSpecialPrefabList:
+  - {fileID: 1669216678799722954, guid: 37c6ca207e31a1842a0c0faf69f594eb, type: 3}
+  CustomerOnlyTextPrefabList:
+  - {fileID: 538273534961242173, guid: b345ac5d01f078e46add787674bfa940, type: 3}
+  - {fileID: 3404300046126355462, guid: 6874c7b7ba3d5ba4f9645bc759d3cf5f, type: 3}
+  - {fileID: 1251958307133894348, guid: 0cd340511059e974ea7ddb924989a6ad, type: 3}
+  - {fileID: 4264279882221853503, guid: f0c1a0bd6d610644f8b0029c64ded69f, type: 3}
+  - {fileID: 5791540925287257486, guid: edadaccd837547f4d850a0dc79e54f3a, type: 3}
+  - {fileID: 1168812454657605912, guid: 213f58c718dfce94f922dd0a89b9a2f1, type: 3}
+  - {fileID: 155428798662682549, guid: 814e590b92a17894e8bb535f59a94f42, type: 3}
+  - {fileID: 5322863003732402486, guid: 24d151b5572116d45bd670b7472a40c9, type: 3}
+  - {fileID: 6609245837081280529, guid: 86481c2ae7006504ea9b7d2ab6bb8b06, type: 3}
+  - {fileID: 1979529114570750672, guid: fb85538c7222a5740bcec9d9375020ae, type: 3}
+  CustomerNormalPrefab: {fileID: 3574147482709103036, guid: 3440904f56930c347a48dbc19d22bc63, type: 3}
+  CustomerSpecialBeggarPrefab: {fileID: 6914624911344222278, guid: 7d2092e68a8a6c94692d97a9733416ba, type: 3}
+  _customerNormalCountPerStage: 5
+  _customerOnlyTextCountPerStage: 2
+  _customerSpecialCountPerStage: 2
+  CustomerSpawnPosition: {x: 0, y: -0.42, z: 0}
